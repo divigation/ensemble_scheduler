@@ -22,8 +22,8 @@
   </div>
 
   <div class="field">
-    <%= form.label :term_id %>
-    <%= form.number_field :term_id %>
+    <%= form.label :term %>
+    <%= form.collection_select :term_id, Term.order(:name), :id, :name %>
   </div>
 
   <div class="actions">
