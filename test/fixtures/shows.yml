@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  showtime: 2018-09-06 11:49:04
+  term_id: 1
+
+two:
+  name: MyString
+  showtime: 2018-09-06 11:49:04
+  term_id: 1
